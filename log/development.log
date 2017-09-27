@@ -1,0 +1,1592 @@
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:14:55 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12042ms (Views: 11920.2ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:16:41 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 41ms (Views: 39.0ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:21:34 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 9705ms (Views: 9582.1ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:22:33 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 218ms (Views: 216.4ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:22:44 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.3ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:22:57 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 206ms (Views: 202.4ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:23:38 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 256ms (Views: 253.6ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:40:29 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 36.4ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:40:52 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 326ms (Views: 323.7ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:45:34 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 618ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: foundation/functions.
+Load paths:
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/babel-source-5.8.35/lib
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/config
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/images
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/angularjs-rails-1.6.2/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/_vendor
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/js
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/scss
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/node_modules):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "vendor/modernizr" %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/foundation_and_overrides.scss:58
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___4031717329957964386_70155227485400'
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:46:27 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 8045ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/babel-source-5.8.35/lib
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/config
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/images
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/angularjs-rails-1.6.2/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/_vendor
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/js
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/scss
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/node_modules):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___940100390041109076_70304796118000'
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:49:12 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 24ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/babel-source-5.8.35/lib
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/config
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/images
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/angularjs-rails-1.6.2/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/_vendor
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/js
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/scss
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/node_modules):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___940100390041109076_70304857307000'
+Started GET "/" for 127.0.0.1 at 2017-09-27 14:50:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 39428ms (Views: 39260.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-27 14:51:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 742ms (Views: 739.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-27 14:52:35 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 360ms (Views: 358.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-27 14:52:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 262ms (Views: 259.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-27 14:52:41 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 429ms (Views: 427.1ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 14:58:48 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 8843ms (Views: 8716.9ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:00:35 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 375ms (Views: 372.9ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:00:55 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 433ms (Views: 430.7ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:04:21 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 331ms (Views: 329.1ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:05:01 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 414ms (Views: 412.7ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:05:25 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 364ms (Views: 362.1ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:05:33 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 352ms (Views: 350.1ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:12:28 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (756.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1432ms (Views: 1429.6ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:14:02 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 925ms (Views: 921.7ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:14:15 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 411ms (Views: 408.3ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:14:21 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 357ms (Views: 354.7ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:14:41 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 389ms (Views: 386.4ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:14:56 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 416ms (Views: 414.4ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:16:10 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 851ms (Views: 848.7ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:22:54 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 415ms (Views: 412.9ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:24:09 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 466ms (Views: 464.2ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:24:51 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 543ms (Views: 541.1ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:25:10 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 532ms (Views: 529.6ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:25:38 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 459ms (Views: 457.5ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:26:11 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 469ms (Views: 466.9ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:26:39 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+Completed 200 OK in 480ms (Views: 477.9ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:28:22 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 438ms (Views: 435.9ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:29:11 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 998ms (Views: 996.4ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:29:56 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 514ms (Views: 510.0ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:31:40 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 460ms (Views: 458.0ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:32:30 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 484ms (Views: 481.6ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:32:45 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 420ms (Views: 418.5ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:32:48 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 339ms (Views: 336.9ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:33:09 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 501ms (Views: 499.3ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:33:30 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 524ms (Views: 521.9ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:33:34 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 349ms (Views: 346.4ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:33:36 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 501ms (Views: 498.9ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:33:37 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 424ms (Views: 421.6ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:33:46 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 490ms (Views: 487.9ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:34:10 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 570ms (Views: 567.5ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:34:14 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 333ms (Views: 330.8ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:34:17 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 347ms (Views: 345.0ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:34:20 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 350ms (Views: 348.6ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:34:55 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 500ms (Views: 498.0ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:35:34 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 441ms (Views: 438.5ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:36:04 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 511ms (Views: 508.0ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:36:28 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 349ms (Views: 347.1ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:36:51 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 428ms (Views: 426.2ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:37:28 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 470ms (Views: 467.2ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:37:33 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 349ms (Views: 347.0ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:37:44 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 334ms (Views: 331.5ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:37:55 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 369ms (Views: 366.8ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:37:58 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 348ms (Views: 346.1ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:39:02 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 347ms (Views: 345.6ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:39:26 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 339ms (Views: 337.3ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:41:07 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 428ms (Views: 426.3ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:41:25 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 424ms (Views: 421.7ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:41:49 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 489ms (Views: 487.4ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:42:04 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 340ms (Views: 338.2ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:43:56 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 353ms (Views: 351.1ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:45:33 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 430ms (Views: 428.5ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:46:30 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 370ms (Views: 367.5ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:47:07 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 423ms (Views: 419.8ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:48:56 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 359ms (Views: 357.1ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:50:07 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 531ms (Views: 529.3ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:51:11 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 457ms (Views: 454.5ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:51:31 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 347ms (Views: 344.7ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:51:55 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 381ms (Views: 378.8ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:52:29 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 498ms (Views: 496.2ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:52:33 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 340ms (Views: 337.8ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:52:38 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 355ms (Views: 353.4ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:52:58 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 419ms (Views: 416.6ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:53:04 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 362ms (Views: 360.0ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:54:05 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 87ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoint'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255782587880'
+Started GET "/" for 10.10.5.146 at 2017-09-27 15:56:12 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 69ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: breakpoint.
+Load paths:
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/babel-source-5.8.35/lib
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/config
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/images
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/fonts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/angularjs-rails-1.6.2/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/_vendor
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/js
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/scss
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/node_modules):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/application.scss:27
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255777177620'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:02:20 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 66ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: breakpoint.
+Load paths:
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/babel-source-5.8.35/lib
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/config
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/images
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/fonts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/angularjs-rails-1.6.2/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/_vendor
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/js
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/scss
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/node_modules):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/application.scss:27
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255781832420'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:02:32 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 97ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoints'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoints'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255767759780'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:02:41 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 87ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoint'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255749166980'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:05:21 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 319ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoint'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255774870060'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:06:50 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 4268ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoint'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255800866820'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:07:28 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 44ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoint'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255747398420'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:07:56 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 377ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoint'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255779873520'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:08:09 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 739ms (Views: 737.5ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:12:23 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 28ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'foundation_and_overrides' with type 'text/css'
+Checked in these paths: 
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/babel-source-5.8.35/lib
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/config
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/images
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/fonts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/angularjs-rails-1.6.2/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/_vendor
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/js
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/scss
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/node_modules):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/application.scss:16
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255774967140'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:12:55 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 20ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'foundation_and_overrides' with type 'text/css'
+Checked in these paths: 
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/babel-source-5.8.35/lib
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/config
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/images
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/fonts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/angularjs-rails-1.6.2/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/_vendor
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/js
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/scss
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/node_modules):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255782826560'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:13:21 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 19ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'foundation_and_overrides' with type 'text/css'
+Checked in these paths: 
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/babel-source-5.8.35/lib
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/config
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/images
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/fonts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/angularjs-rails-1.6.2/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/_vendor
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/js
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/scss
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/node_modules):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255771977940'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:13:34 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 73ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: vendor/_all.
+Load paths:
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/babel-source-5.8.35/lib
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/config
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/images
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/fonts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/angularjs-rails-1.6.2/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/_vendor
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/js
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/scss
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/node_modules):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/application.scss:24
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255770086240'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:14:24 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 67ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: vendor/_all.
+Load paths:
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/babel-source-5.8.35/lib
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/config
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/images
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/fonts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-slick-rails-1.8.0/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/angularjs-rails-1.6.2/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/_vendor
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/js
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/foundation-rails-6.3.1.0/vendor/assets/scss
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/cgoodrow/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/cgoodrow/myWork/portfolio-demo/node_modules):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/application.scss:24
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255800585100'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:14:36 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 4351ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoint'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255769318620'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:15:33 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 384ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoint'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255769304620'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:16:09 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 317ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoint'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255789241640'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:18:17 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 4211ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoint'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255780403160'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:22:47 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 28ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoint'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255766981180'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:24:37 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 66ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/nav.scss:5:in `breakpoint'
+app/assets/stylesheets/nav.scss:5
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255779732400'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:27:33 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 402ms (Views: 400.4ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:28:23 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 92ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/welcome.scss:8:in `breakpoint'
+app/assets/stylesheets/welcome.scss:8
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255779055580'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:43:40 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 331ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/welcome.scss:8:in `breakpoint'
+app/assets/stylesheets/welcome.scss:8
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255788843040'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:44:01 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 389ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/welcome.scss:8:in `breakpoint'
+app/assets/stylesheets/welcome.scss:8
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255776358760'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:49:28 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 937ms (Views: 934.5ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:49:56 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 338ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'breakpoint'.):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  
+app/assets/stylesheets/welcome.scss:7:in `breakpoint'
+app/assets/stylesheets/welcome.scss:7
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1241687975314262036_70255787922140'
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:50:09 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1093ms (Views: 1090.7ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:50:27 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 1090ms (Views: 1088.3ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:51:42 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 357ms (Views: 355.5ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:52:10 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 342ms (Views: 340.3ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:52:54 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 946ms (Views: 943.8ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:53:12 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 988ms (Views: 985.2ms)
+
+
+Started GET "/" for 10.10.5.146 at 2017-09-27 16:53:25 -0400
+Cannot render console from 10.10.5.146! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 564ms (Views: 561.9ms)
+
+

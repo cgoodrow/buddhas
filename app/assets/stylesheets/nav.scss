@@ -1,0 +1,22 @@
+
+.title-bar {
+  margin-top: 0 !important;
+  background-color: #000;
+  z-index: 100;
+
+  .top-bar-left {
+
+    .menu {
+      background-color: #000;
+      color: #fff;
+
+      li > a {
+        color: #fff;
+
+        &:after {
+          border-color: #fff transparent transparent;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<section class="row expanded">
+    <div class="your-class">
+      <div><%= image_tag('slick/people.jpg') %></div>
+      <div><%= image_tag('slick/people_01.jpg') %></div>
+      <div><%= image_tag('slick/people_02.jpg') %></div>
+    </div>
+</section>
+
+<section>
+<div class="row">
+  <div class="large-6 columns">
+    shgfdhgsdfhfhfgh
+  </div>
+  <div class="large-6 columns">
+    shgfdhgsdfhfhfgh
+  </div>
+</div>
+
+</section>
+
+<script>
+$(document).ready(function(){
+    $('.your-class').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
+});
+</script>
