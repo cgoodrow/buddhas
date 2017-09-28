@@ -1,0 +1,13 @@
+$white: #fff;
+$p-font: 'Annie Use Your Telescope';
+
+.font-white { color: $white; }
+
+
+h2 { font-size: 1.5em; }
+
+
+.annie {
+  font-family: $p-font;
+  font-size: 22px;
+}

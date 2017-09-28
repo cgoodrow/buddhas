@@ -19,4 +19,11 @@
 
  */
 
- @import 'slick'; 
+ @import 'slick';
+
+ @import '_settings';
+
+ @import 'settings/_all';
+
+ // Import all Pages
+ @import 'pages/**/*';

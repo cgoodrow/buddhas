@@ -1,0 +1,19 @@
+@import 'settings/_all';
+
+.btn {
+  width: 100%;
+  max-width: 350px;
+  padding: 15px 15px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+
+  &.btn-black {
+    background-color: #000;
+
+    &:hover {
+      color: $white;
+      opacity: .8;
+    }
+  }
+}

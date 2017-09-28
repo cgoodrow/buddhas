@@ -18,6 +18,9 @@
 //= require angular
 //= require foundation
 //= require jquery.slick
-//= require_tree
+
+//= require welcome.js
+
+//= require_tree ./pages
 
 $(function(){ $(document).foundation(); });
