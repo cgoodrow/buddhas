@@ -1,0 +1,20 @@
+<script>
+$(document).ready(function() {
+    $('#exampleModal1').foundation('open');
+    $('.close-button').click(function() {
+      parent.history.back();
+		  return false;
+    });    
+});
+</script>
+
+<div class="reveal" id="exampleModal1" data-reveal>
+  <% flash.each do |key, value| %>
+    <div>
+        <%= value %>
+    </div>
+  <% end %>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
