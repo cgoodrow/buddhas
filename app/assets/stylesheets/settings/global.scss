@@ -1,19 +1,84 @@
+
 .relative {
   position: relative;
+}
+
+.offset-sections {
+  position: relative;
+  z-index: -5;
 }
 
 .section-text {
   padding-top: 45px;
 
   p {
-    padding-right: 15px;
-    padding-left: 15px;
     margin-bottom: 0;
     transform: translate(0%, 0%);
+    color: $white;
   }
 }
 
-#sec-one {
-  background-color: #f6f6f6;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23000000' fill-opacity='0.2'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");  
+.arrow-box-right {
+  position: relative;
+  height: 400px;
+  background-color: #000;
+  padding: 35px 25px;
+  z-index: 5;
+
+   &:after {
+     content: '';
+     position: absolute;
+     top: 50%;
+     right: -15.4%;
+     width: 0;
+     height: 0;
+     border-top: 75px solid transparent;
+     border-bottom: 75px solid transparent;
+     border-left:75px solid #000;
+
+   }
+
+   h2 {
+     font-family: "Nosifer Caps";
+     color: $white;
+   }
+}
+
+.non-arrow-box {
+  height: 100%;
+  padding: 35px;
+  height: 400px;
+  background-color: #e6cc0a;
+  z-index: 5;
+
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.arrow-box-left {
+  position: relative;
+  height: 400px;
+  background-color: #000;
+  padding: 35px 25px;
+
+   &:after {
+     content: '';
+     position: absolute;
+     top: 50%;
+     left: -15.4%;
+     width: 0;
+     height: 0;
+     border-top: 75px solid transparent;
+     border-bottom: 75px solid transparent;
+     border-right:75px solid #000;
+   }
+
+   h2 {
+     font-family: "Nosifer Caps";
+     color: $white;
+   }
 }

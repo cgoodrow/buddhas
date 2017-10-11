@@ -6,12 +6,23 @@
   display: block;
   margin: 0 auto;
   text-align: center;
+  border-radius: 5px;
 
   &.btn-black {
     background-color: #000;
 
     &:hover {
       color: $white;
+      opacity: .8;
+    }
+  }
+
+  &.btn-primary-yellow {
+    background-color: #e6cc0a;
+    width: 250px;
+    font-family: "Nosifer Caps";
+
+    &:hover {
       opacity: .8;
     }
   }

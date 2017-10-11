@@ -7469,3 +7469,2666 @@ Content-Transfer-Encoding: 7bit
 Completed 200 OK in 3171ms (Views: 380.5ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-11 09:27:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_welcome_index_html_erb__1060868988_32520768 at C:/Sites/buddhas/app/views/welcome/index.html.erb:13)
+Started GET "/" for 127.0.0.1 at 2017-10-11 09:32:30 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_welcome_index_html_erb__1060868988_126693168 at C:/Sites/buddhas/app/views/welcome/index.html.erb:13)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_welcome_index_html_erb__1060868988_32520768 at C:/Sites/buddhas/app/views/welcome/index.html.erb:13)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_welcome_index_html_erb__1060868988_126693168 at C:/Sites/buddhas/app/views/welcome/index.html.erb:13)
+  Rendered contacts/_new.html.erb (24830.8ms)
+  Rendered contacts/_new.html.erb (1074.0ms)
+  Rendered welcome/index.html.erb within layouts/application (399347.1ms)
+  Rendered welcome/index.html.erb within layouts/application (108803.7ms)
+Completed 500 Internal Server Error in 109677ms
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     7: 
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+  
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__1011316684_115109268'
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 430729ms (Views: 423722.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 09:40:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (35.1ms)
+  Rendered welcome/index.html.erb within layouts/application (120.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 5098ms (Views: 5029.4ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-10-11 09:43:09 -0400
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ApZOMU0b99k69SH7Wu+MIIZCy8OcE/6pF3s7k6JQ4Tox73Otphut5JMh1TOq3dYvzoaejJqsmlhusmJHjU4Dmg==", "contact"=>{"name"=>"chirs", "email"=>"goodrow.chris4@gmail.com", "message"=>"hello chris", "nickname"=>""}, "commit"=>"Send message"}
+  Rendering C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (5.0ms)
+MailForm::Notifier#contact: processed outbound mail in 4016.2ms
+Sent mail to goodrow.chris4@gmail.com (2817.4ms)
+Date: Wed, 11 Oct 2017 09:43:18 -0400
+From: chirs <goodrow.chris4@gmail.com>
+To: goodrow.chris4@gmail.com
+Message-ID: <59de1ff6c145a_23d42a4f7d01060@Chris.mail>
+Subject: Demo Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">Demo Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  chirs</p>
+
+  <p><b>Email:</b>
+  goodrow.chris4@gmail.com</p>
+
+  <p><b>Message:</b>
+  hello chris</p>
+
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 15941ms (Views: 4478.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 09:49:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (110.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4466ms (Views: 4411.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 09:49:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (29.0ms)
+  Rendered welcome/index.html.erb within layouts/application (112.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4461ms (Views: 4411.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 09:50:09 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (32.1ms)
+  Rendered welcome/index.html.erb within layouts/application (121.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 4525ms (Views: 4477.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 09:53:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (27.0ms)
+  Rendered welcome/index.html.erb within layouts/application (110.2ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4709ms (Views: 4659.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:06:16 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (29.0ms)
+  Rendered welcome/index.html.erb within layouts/application (110.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_138487680 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_138487680 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 47931ms (Views: 47884.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:07:34 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (30.0ms)
+  Rendered welcome/index.html.erb within layouts/application (148.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 5055ms (Views: 4985.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:08:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (25.0ms)
+  Rendered welcome/index.html.erb within layouts/application (105.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 4735ms (Views: 4678.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:09:42 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (48.1ms)
+  Rendered welcome/index.html.erb within layouts/application (123.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4813ms (Views: 4765.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:10:16 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (27.0ms)
+  Rendered welcome/index.html.erb within layouts/application (107.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_96497700 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_96497700 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 47753ms (Views: 47704.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:11:51 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (29.0ms)
+  Rendered welcome/index.html.erb within layouts/application (109.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_104489496 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_104489496 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 47795ms (Views: 47749.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:14:26 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (34.1ms)
+  Rendered welcome/index.html.erb within layouts/application (118.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_138208248 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_138208248 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 50351ms (Views: 50302.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:22:27 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (29.0ms)
+  Rendered welcome/index.html.erb within layouts/application (116.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 4521ms (Views: 4473.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:24:37 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (26.0ms)
+  Rendered welcome/index.html.erb within layouts/application (105.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4517ms (Views: 4464.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:24:51 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (47.1ms)
+  Rendered welcome/index.html.erb within layouts/application (173.3ms)
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:24:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (66.1ms)
+  Rendered welcome/index.html.erb within layouts/application (254.4ms)
+Completed 500 Internal Server Error in 3892ms
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    14: 
+  
+app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1011316684_133318788'
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 29761ms (Views: 29702.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:27:18 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (29.0ms)
+  Rendered welcome/index.html.erb within layouts/application (130.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4623ms (Views: 4575.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:27:24 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (115.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4555ms (Views: 4504.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:28:22 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (26.0ms)
+  Rendered welcome/index.html.erb within layouts/application (105.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4464ms (Views: 4417.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:29:06 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (31.0ms)
+  Rendered welcome/index.html.erb within layouts/application (103.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 4467ms (Views: 4417.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:29:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (27.0ms)
+  Rendered welcome/index.html.erb within layouts/application (114.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_51732984 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_51732984 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:30:49 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (48.1ms)
+  Rendered welcome/index.html.erb within layouts/application (238.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (6.0ms)
+Completed 200 OK in 57356ms (Views: 57305.3ms)
+
+
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 8577ms (Views: 8517.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:31:28 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (25.0ms)
+  Rendered welcome/index.html.erb within layouts/application (103.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_92263716 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_92263716 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 47079ms (Views: 47031.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:32:35 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (29.0ms)
+  Rendered welcome/index.html.erb within layouts/application (114.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_113355672 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_113355672 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 50837ms (Views: 50790.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:34:37 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (111.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_128161272 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:35:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (56.1ms)
+  Rendered welcome/index.html.erb within layouts/application (263.4ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_129565104 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_128161272 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 76289ms (Views: 76235.2ms)
+
+
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_129565104 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 70024ms (Views: 69943.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:37:22 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (26.0ms)
+  Rendered welcome/index.html.erb within layouts/application (101.1ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_113616192 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_113616192 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 51252ms (Views: 51203.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:39:55 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (27.0ms)
+  Rendered welcome/index.html.erb within layouts/application (107.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4442ms (Views: 4392.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:42:39 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (25.0ms)
+  Rendered welcome/index.html.erb within layouts/application (107.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4495ms (Views: 4446.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:44:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (105.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_132201732 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_132201732 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 51958ms (Views: 51900.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:47:11 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (30.0ms)
+  Rendered welcome/index.html.erb within layouts/application (204.3ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_91372092 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_91372092 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 55587ms (Views: 55495.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:51:16 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (109.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_137320920 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_137320920 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 48910ms (Views: 48860.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:54:27 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (33.1ms)
+  Rendered welcome/index.html.erb within layouts/application (130.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_136079448 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_136079448 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 57488ms (Views: 57434.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 10:58:42 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (105.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_127835256 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Completed 500 Internal Server Error in 34436ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...ranslateX(-100%": expected ")", was ";);"):
+     7: 
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+  
+app/assets/stylesheets/layout/nav.scss:11
+app/assets/stylesheets/layout:2
+app/assets/stylesheets/application.scss:25
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__1011316684_127835256'
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:00:08 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (26.0ms)
+  Rendered welcome/index.html.erb within layouts/application (99.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_134087712 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Completed 500 Internal Server Error in 34949ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...ranslateX(-100%": expected ")", was ";);"):
+     7: 
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+  
+app/assets/stylesheets/layout/nav.scss:11
+app/assets/stylesheets/layout:2
+app/assets/stylesheets/application.scss:25
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__1011316684_134087712'
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:01:16 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (29.0ms)
+  Rendered welcome/index.html.erb within layouts/application (118.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_83066688 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:01:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (63.1ms)
+  Rendered welcome/index.html.erb within layouts/application (342.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_91306020 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_83066688 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 88986ms (Views: 88938.2ms)
+
+
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_91306020 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 92294ms (Views: 92211.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:06:19 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (30.0ms)
+  Rendered welcome/index.html.erb within layouts/application (104.7ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_149142144 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_149142144 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 60580ms (Views: 60528.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:07:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (36.1ms)
+  Rendered welcome/index.html.erb within layouts/application (111.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 5872ms (Views: 5825.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:08:14 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (26.0ms)
+  Rendered welcome/index.html.erb within layouts/application (108.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 5669ms (Views: 5619.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:09:22 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (29.0ms)
+  Rendered welcome/index.html.erb within layouts/application (107.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 6689ms (Views: 6640.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:10:09 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (27.0ms)
+  Rendered welcome/index.html.erb within layouts/application (114.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 4464ms (Views: 4417.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:11:42 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (27.0ms)
+  Rendered welcome/index.html.erb within layouts/application (104.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 6327ms (Views: 6275.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:13:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (26.0ms)
+  Rendered welcome/index.html.erb within layouts/application (106.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_185990136 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_185990136 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 49642ms (Views: 49593.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:16:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (27.0ms)
+  Rendered welcome/index.html.erb within layouts/application (115.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_91222248 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_91222248 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 47026ms (Views: 46978.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:18:06 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (117.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_85843656 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_85843656 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 47030ms (Views: 46981.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:25:53 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (29.0ms)
+  Rendered welcome/index.html.erb within layouts/application (106.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_172158624 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_172158624 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 47788ms (Views: 47740.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:28:37 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (29.0ms)
+  Rendered welcome/index.html.erb within layouts/application (106.1ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_178542036 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_178542036 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 57251ms (Views: 57203.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:31:43 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (111.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_110812836 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_110812836 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 51374ms (Views: 51321.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:38:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (26.0ms)
+  Rendered welcome/index.html.erb within layouts/application (103.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_80601252 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_80601252 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47776ms (Views: 47739.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:39:58 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (112.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_108716892 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_108716892 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 46426ms (Views: 46376.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:45:44 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (33.0ms)
+  Rendered welcome/index.html.erb within layouts/application (140.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_132328656 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Completed 500 Internal Server Error in 30941ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (3 for 4) for `rgba'):
+     7: 
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+  
+app/assets/stylesheets/layout/nav.scss:4
+app/assets/stylesheets/layout:2
+app/assets/stylesheets/application.scss:25
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__1011316684_132328656'
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:48:17 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (112.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_190019952 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:48:37 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (29.0ms)
+  Rendered welcome/index.html.erb within layouts/application (190.3ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_83042760 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_190019952 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 83085ms (Views: 83033.5ms)
+
+
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_83042760 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 84829ms (Views: 84722.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 11:58:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (31.1ms)
+  Rendered welcome/index.html.erb within layouts/application (106.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_86265372 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_86265372 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 50891ms (Views: 50842.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:05:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (27.0ms)
+  Rendered welcome/index.html.erb within layouts/application (108.7ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_130406088 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_130406088 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 59289ms (Views: 59239.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:07:35 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (45.1ms)
+  Rendered welcome/index.html.erb within layouts/application (171.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 4669ms (Views: 4619.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:10:40 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (112.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_145746516 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_145746516 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 52499ms (Views: 52450.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:15:30 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (21.8ms)
+  Rendered welcome/index.html.erb within layouts/application (102.3ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_90986040 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_90986040 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:16:30 -0400
+  Rendered layouts/_footer.html.erb (0.0ms)
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 59880ms (Views: 59831.4ms)
+
+
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (36.0ms)
+  Rendered welcome/index.html.erb within layouts/application (112.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_132083508 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_132083508 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 56156ms (Views: 56102.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:23:22 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (112.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_137401188 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_137401188 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 60549ms (Views: 60501.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:28:06 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (40.0ms)
+  Rendered welcome/index.html.erb within layouts/application (128.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_130734564 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_130734564 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 61373ms (Views: 61309.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:30:29 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (104.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_136557072 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_136557072 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 57899ms (Views: 57854.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:36:36 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (96.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_132211500 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_132211500 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 44628ms (Views: 44570.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:37:49 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (104.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4469ms (Views: 4414.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:42:41 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (108.9ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_166841232 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_166841232 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 55377ms (Views: 55329.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:44:46 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (105.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 6058ms (Views: 5991.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:47:04 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (104.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4441ms (Views: 4392.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:47:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (104.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4347ms (Views: 4301.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:49:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (26.5ms)
+  Rendered welcome/index.html.erb within layouts/application (108.1ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_89517204 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_89517204 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 50487ms (Views: 50437.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:52:00 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (120.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_177689592 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_177689592 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 60082ms (Views: 60028.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:53:18 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (105.7ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_103941804 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_103941804 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 49829ms (Views: 49783.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 12:58:07 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (156.1ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_87511680 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_87511680 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (8.0ms)
+Completed 200 OK in 53026ms (Views: 52970.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:00:39 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (36.0ms)
+  Rendered welcome/index.html.erb within layouts/application (137.4ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 5486ms (Views: 5433.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:04:34 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (116.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_191858676 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_191858676 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (8.0ms)
+Completed 200 OK in 55327ms (Views: 55270.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:09:52 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (124.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_110089368 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_110089368 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:10:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (65.2ms)
+  Rendered welcome/index.html.erb within layouts/application (217.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 64670ms (Views: 64618.1ms)
+
+
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_170917980 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_170917980 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 55843ms (Views: 55781.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:14:20 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (25.4ms)
+  Rendered welcome/index.html.erb within layouts/application (107.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_103461420 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_103461420 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 53816ms (Views: 53766.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:16:04 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (104.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_126693924 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_126693924 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 48727ms (Views: 48677.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:19:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (108.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_92750376 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_92750376 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 55059ms (Views: 55006.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:22:43 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (104.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_78317604 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_78317604 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 52067ms (Views: 52023.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:24:04 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (44.0ms)
+  Rendered welcome/index.html.erb within layouts/application (128.0ms)
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:24:08 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (85.6ms)
+  Rendered welcome/index.html.erb within layouts/application (276.7ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_81068748 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_137131056 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:24:52 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (74.1ms)
+  Rendered welcome/index.html.erb within layouts/application (591.5ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_92035104 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_81068748 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_137131056 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Completed 500 Internal Server Error in 114942ms
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    14:     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nosifer+Caps" />
+  
+app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1011316684_81068748'
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 117643ms (Views: 117574.6ms)
+
+
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_92035104 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:26:37 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (52.0ms)
+  Rendered welcome/index.html.erb within layouts/application (244.1ms)
+Completed 500 Internal Server Error in 6300ms
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    14:     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nosifer+Caps" />
+  
+app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1011316684_175383768'
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 131066ms (Views: 130933.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:27:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (108.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4698ms (Views: 4638.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:29:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (104.6ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_128239704 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_128239704 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 50265ms (Views: 50214.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:32:19 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (20.2ms)
+  Rendered welcome/index.html.erb within layouts/application (104.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_136115220 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_136115220 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 50952ms (Views: 50904.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:35:21 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (124.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4773ms (Views: 4706.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:36:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (26.2ms)
+  Rendered welcome/index.html.erb within layouts/application (107.3ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_181847736 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_181847736 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 49789ms (Views: 49742.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:38:18 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (101.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4261ms (Views: 4200.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:40:16 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (36.0ms)
+  Rendered welcome/index.html.erb within layouts/application (120.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_97293024 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_97293024 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 52344ms (Views: 52294.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:47:34 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (47.4ms)
+  Rendered welcome/index.html.erb within layouts/application (6594.5ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 11940ms (Views: 11873.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:51:11 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (36.0ms)
+  Rendered welcome/index.html.erb within layouts/application (132.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_186163584 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_186163584 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 57711ms (Views: 57648.8ms)
+
+
+Started GET "/backgrounds/bricks_bg.png" for 127.0.0.1 at 2017-10-11 13:52:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/backgrounds/bricks_bg.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/backgrounds/bricks_bg.png" for 127.0.0.1 at 2017-10-11 13:52:52 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/backgrounds/bricks_bg.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:53:43 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (34.3ms)
+  Rendered welcome/index.html.erb within layouts/application (123.3ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_184762068 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb__1011316684_184762068 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 57628ms (Views: 57566.6ms)
+
+
+Started GET "/backgrounds/bricks_bg.png" for 127.0.0.1 at 2017-10-11 13:54:42 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/backgrounds/bricks_bg.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/im/backgrounds/bricks_bg.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.4) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.4) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.4) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.4) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/ima/backgrounds/bricks_bg.png"):
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/imag/backgrounds/bricks_bg.png"):
+ActionController::RoutingError (No route matches [GET] "/assets/image/backgrounds/bricks_bg.png"):
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.4) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.4) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.4) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.4) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.4) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.4) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.4) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.4) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.4) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.4) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.4) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.4) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/backgrounds/bricks_bg.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.4) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.4) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.4) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.4) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-11 13:56:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (24.9ms)
+  Rendered welcome/index.html.erb within layouts/application (3488.3ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 76975ms (Views: 75646.1ms)
+
+
+Started GET "/images/backgrounds/bricks_bg.png" for 127.0.0.1 at 2017-10-11 13:58:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/backgrounds/bricks_bg.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:02:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (98.7ms)
+  Rendered welcome/index.html.erb within layouts/application (178.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 52026ms (Views: 51978.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:03:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (124.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4633ms (Views: 4579.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:05:28 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (112.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4539ms (Views: 4492.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:11:16 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (104.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4435ms (Views: 4372.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:13:24 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (101.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50506ms (Views: 50459.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:15:53 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (96.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47934ms (Views: 47884.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:19:00 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (108.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 48389ms (Views: 48340.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:30:32 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (29.0ms)
+  Rendered welcome/index.html.erb within layouts/application (133.1ms)
+Completed 500 Internal Server Error in 34404ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...nd-color: color": expected ";", was ": #000;"):
+     7: 
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+  
+app/assets/stylesheets/settings/global.scss:19
+app/assets/stylesheets/settings:2
+app/assets/stylesheets/application.scss:23
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__1011316684_192757716'
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:32:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.6ms)
+  Rendered welcome/index.html.erb within layouts/application (112.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 46135ms (Views: 46086.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:33:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (108.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 53091ms (Views: 53042.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:41:36 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (116.6ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 76650ms (Views: 76600.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:45:25 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (120.0ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 59502ms (Views: 59445.8ms)
+
+
+Started GET "/welcome/people_03.jpg" for 127.0.0.1 at 2017-10-11 14:46:26 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/people_03.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:47:46 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (31.6ms)
+  Rendered welcome/index.html.erb within layouts/application (199.7ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 58664ms (Views: 58605.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:50:09 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (128.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5322ms (Views: 5272.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:51:30 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (127.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50113ms (Views: 50054.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:58:01 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (27.0ms)
+  Rendered welcome/index.html.erb within layouts/application (115.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 51956ms (Views: 51905.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 14:59:29 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (116.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47725ms (Views: 47672.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:02:42 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (25.5ms)
+  Rendered welcome/index.html.erb within layouts/application (118.1ms)
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:03:26 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (56.0ms)
+  Rendered welcome/index.html.erb within layouts/application (242.6ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 61966ms (Views: 61911.1ms)
+
+
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 60376ms (Views: 60251.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:04:51 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (26.6ms)
+  Rendered welcome/index.html.erb within layouts/application (111.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47710ms (Views: 47664.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:09:47 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (116.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4357ms (Views: 4311.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:11:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (108.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 4610ms (Views: 4563.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:12:34 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (124.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4633ms (Views: 4583.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:13:15 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (44.0ms)
+  Rendered welcome/index.html.erb within layouts/application (176.2ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 83846ms (Views: 83795.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:14:43 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (120.2ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47931ms (Views: 47880.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:16:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (120.0ms)
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:17:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (48.0ms)
+  Rendered welcome/index.html.erb within layouts/application (265.6ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 84044ms (Views: 83973.1ms)
+
+
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 84284ms (Views: 84187.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:18:56 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (116.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 49040ms (Views: 48935.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:20:13 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (116.2ms)
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:20:47 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (52.0ms)
+  Rendered welcome/index.html.erb within layouts/application (243.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 71698ms (Views: 71647.6ms)
+
+
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 64790ms (Views: 64707.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:22:35 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (117.8ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 4898ms (Views: 4850.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:25:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (112.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 57909ms (Views: 57859.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:29:28 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (25.4ms)
+  Rendered welcome/index.html.erb within layouts/application (206.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 56852ms (Views: 56765.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:32:44 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (29.3ms)
+  Rendered welcome/index.html.erb within layouts/application (189.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4816ms (Views: 4765.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:33:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (1.5ms)
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (187.6ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4457ms (Views: 4399.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:34:58 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (163.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4446ms (Views: 4391.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:35:23 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (4.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (176.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5717ms (Views: 5669.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:35:35 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (189.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4788ms (Views: 4725.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:38:42 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (1.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (184.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 54173ms (Views: 54121.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:40:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (187.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4906ms (Views: 4852.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:41:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (197.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4893ms (Views: 4837.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:42:47 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (175.3ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 58372ms (Views: 58326.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:46:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (208.6ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 73654ms (Views: 73583.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:48:25 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (4.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (181.7ms)
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:49:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (56.0ms)
+  Rendered welcome/index.html.erb within layouts/application (512.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 78524ms (Views: 78471.7ms)
+
+
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 71050ms (Views: 70961.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:51:44 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (210.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 49618ms (Views: 49563.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:57:21 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (204.4ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 62559ms (Views: 62506.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 15:58:26 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (358.8ms)
+  Rendered layouts/_header.html.erb (5.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 92414ms (Views: 92322.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:00:24 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (2.0ms)
+  Rendered contacts/_new.html.erb (38.9ms)
+  Rendered welcome/index.html.erb within layouts/application (233.2ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 6150ms (Views: 6061.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:01:47 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (229.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 54028ms (Views: 53964.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:07:23 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (176.1ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 56148ms (Views: 56093.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:11:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (193.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50220ms (Views: 50171.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:13:08 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (195.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 51794ms (Views: 51742.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:15:19 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (184.6ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 52026ms (Views: 51974.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:20:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (40.0ms)
+  Rendered welcome/index.html.erb within layouts/application (212.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4762ms (Views: 4712.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:20:51 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (189.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (8.0ms)
+Completed 200 OK in 53633ms (Views: 53588.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:24:55 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (201.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 4860ms (Views: 4802.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:25:29 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (163.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 49561ms (Views: 49509.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:30:11 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (4.0ms)
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (188.1ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 5469ms (Views: 5413.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:32:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (29.3ms)
+  Rendered welcome/index.html.erb within layouts/application (192.4ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 53509ms (Views: 53456.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:35:34 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (183.7ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 57690ms (Views: 57638.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:40:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (84.8ms)
+Completed 500 Internal Server Error in 345ms
+
+
+  
+ActionView::Template::Error (The asset "welcome/nightlife_03.jpg" is not present in the asset pipeline.):
+    23:       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    24:     </div>
+    25:     <div class="small-12 medium-6 large-6 columns non-arrow-box">
+    26:       <%= image_tag('welcome/nightlife_03.jpg') %>
+    27:     </div>
+    28:   </div>
+    29: </section>
+  
+app/views/welcome/index.html.erb:26:in `_app_views_welcome_index_html_erb__1060868988_74227068'
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:42:45 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (92.0ms)
+Completed 500 Internal Server Error in 353ms
+
+
+  
+ActionView::Template::Error (The asset "welcome/nightlife_03.jpg" is not present in the asset pipeline.):
+    23:       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    24:     </div>
+    25:     <div class="small-12 medium-6 large-6 columns non-arrow-box">
+    26:       <%= image_tag('welcome/nightlife_03.jpg') %>
+    27:     </div>
+    28:   </div>
+    29: </section>
+  
+app/views/welcome/index.html.erb:26:in `_app_views_welcome_index_html_erb__1060868988_141923064'
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:44:29 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (47996.9ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 52453ms (Views: 52404.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:48:34 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (198.6ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 50896ms (Views: 50842.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:52:26 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (201.9ms)
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:52:49 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (72.0ms)
+  Rendered welcome/index.html.erb within layouts/application (401.7ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 87096ms (Views: 87042.1ms)
+
+
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 84138ms (Views: 84046.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 16:58:22 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (208.1ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 63670ms (Views: 63612.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:02:27 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (232.0ms)
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:03:29 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 63570ms (Views: 63521.4ms)
+
+
+  Rendered partials/_blocks.html.erb (2.0ms)
+  Rendered contacts/_new.html.erb (36.0ms)
+  Rendered welcome/index.html.erb within layouts/application (355.1ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 66287ms (Views: 66167.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:05:51 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (1286.3ms)
+  Rendered welcome/index.html.erb within layouts/application (12082.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 23815ms (Views: 21198.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:11:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (31.4ms)
+  Rendered welcome/index.html.erb within layouts/application (219.7ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb___817641684_83277168 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:11:43 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (33.0ms)
+  Rendered welcome/index.html.erb within layouts/application (512.5ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb___817641684_83277168 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb___817641684_124762344 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 75901ms (Views: 75833.8ms)
+
+
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb___817641684_124762344 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 66302ms (Views: 66206.8ms)
+
+
+Started GET "/the_experience_path" for 127.0.0.1 at 2017-10-11 17:13:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/the_experience_path"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:14:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (196.9ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb___817641684_126280764 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb___817641684_126280764 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 49940ms (Views: 49891.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:17:25 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (4.0ms)
+  Rendered contacts/_new.html.erb (36.0ms)
+  Rendered welcome/index.html.erb within layouts/application (229.5ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 6373ms (Views: 6321.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:17:36 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (28.0ms)
+  Rendered welcome/index.html.erb within layouts/application (184.6ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb___817641684_116573172 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb___817641684_116573172 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:18:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (48.7ms)
+  Rendered welcome/index.html.erb within layouts/application (421.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 71171ms (Views: 71115.9ms)
+
+
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb___817641684_120463968 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.css.scss to C:/Sites/buddhas/app/assets/stylesheets/foundation_and_overrides.scss. (called from _app_views_layouts_application_html_erb___817641684_120463968 at C:/Sites/buddhas/app/views/layouts/application.html.erb:10)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 59804ms (Views: 59707.8ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-10-11 17:19:37 -0400
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WrP7eWsMd91XaWvkIPF49FvlEHqX30IZaaCtu75/qx1pysblgAwt4P69nyzQwyL7EyFFNZFgJugQafRvkWFJvQ==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message"}
+Completed 500 Internal Server Error in 279ms
+
+
+  
+ActionView::MissingTemplate (Missing template contacts/new, application/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "C:/Sites/buddhas/app/views"
+  * "C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/foundation-rails-6.3.1.0/app/views"
+):
+  
+app/controllers/contacts_controller.rb:13:in `create'
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:20:08 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (32.0ms)
+  Rendered welcome/index.html.erb within layouts/application (195.3ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4610ms (Views: 4565.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:22:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (4.0ms)
+  Rendered contacts/_new.html.erb (24.0ms)
+  Rendered welcome/index.html.erb within layouts/application (180.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5652ms (Views: 5597.8ms)
+
+
+Started GET "/welcome_the_experience_path" for 127.0.0.1 at 2017-10-11 17:23:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/welcome_the_experience_path"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:27:55 -0400
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:27:56 -0400
+Started GET "/welcome_the_experience_path" for 127.0.0.1 at 2017-10-11 17:27:56 -0400
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:27:56 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (3.0ms)
+  Rendered contacts/_new.html.erb (185.3ms)
+  Rendered welcome/index.html.erb within layouts/application (888.8ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 20483ms (Views: 20285.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/welcome_the_experience_path"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by WelcomeController#index as HTML
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (239.4ms)
+  Rendered contacts/_new.html.erb (752.1ms)
+  Rendered welcome/index.html.erb within layouts/application (1623.4ms)
+  Rendered welcome/index.html.erb within layouts/application (1603.4ms)
+Completed 500 Internal Server Error in 5385ms
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     7: 
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+  
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___817641684_115772436'
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 91530ms (Views: 91129.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:41:23 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (30.0ms)
+  Rendered contacts/_new.html.erb (3162.7ms)
+  Rendered welcome/index.html.erb within layouts/application (57429.4ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 110386ms (Views: 105832.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:48:01 -0400
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:48:01 -0400
+Processing by WelcomeController#index as HTML
+Processing by WelcomeController#index as HTML
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:48:04 -0400
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:48:04 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendering welcome/index.html.erb within layouts/application
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (3.0ms)
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered partials/_blocks.html.erb (1.0ms)
+  Rendered partials/_blocks.html.erb (0.0ms)
+  Rendered contacts/_new.html.erb (376.6ms)
+  Rendered contacts/_new.html.erb (951.4ms)
+  Rendered welcome/index.html.erb within layouts/application (4622.5ms)
+  Rendered welcome/index.html.erb within layouts/application (5754.7ms)
+  Rendered contacts/_new.html.erb (417.6ms)
+  Rendered contacts/_new.html.erb (196.3ms)
+  Rendered welcome/index.html.erb within layouts/application (3524.3ms)
+  Rendered welcome/index.html.erb within layouts/application (3428.1ms)
+Completed 500 Internal Server Error in 9264ms
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     7: 
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+  
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__561649891_97611708'
+Completed 500 Internal Server Error in 28963ms
+
+
+Completed 500 Internal Server Error in 29358ms
+
+
+  
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    14:     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nosifer+Caps" />
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    14:     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nosifer+Caps" />
+  
+  
+app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__561649891_97611708'
+app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__561649891_97611708'
+Started GET "/" for 127.0.0.1 at 2017-10-11 17:50:14 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered partials/_blocks.html.erb (22.0ms)
+  Rendered contacts/_new.html.erb (14587.8ms)
+  Rendered welcome/index.html.erb within layouts/application (90870.3ms)
+Completed 500 Internal Server Error in 309603ms
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     8:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     9: 
+    10:     <%= stylesheet_link_tag    "application" %>
+    11:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+    13:     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    14:     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nosifer+Caps" />
+  
+app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__561649891_97611708'
+  Rendered layouts/_header.html.erb (7.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 281440ms (Views: 274491.6ms)
+
+
