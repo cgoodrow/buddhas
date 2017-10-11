@@ -1,5 +1,6 @@
 .slick-slider {
   position: relative;
+  z-index: -1;
 
   .slick-arrow {
     height: 35px; width: 35px;
@@ -15,6 +16,7 @@
     top: 45%;
     left: 5%;
     transform: rotate(225deg);
+    cursor: pointer;
   }
 
   .slick-next {
@@ -22,6 +24,7 @@
     top: 45%;
     right: 5%;
     transform: rotate(45deg);
+    cursor: pointer;
   }
 
   img {

@@ -1,53 +1,164 @@
+.nav {
+  width: 100%;
+  height: 85px;
+  border-bottom: solid 3px #e6cc0a;
 
+    .social {
+      padding-right: 0;
 
-.title-bar {
-  margin-top: 0 !important;
-  background-color: #000;
-  z-index: 100;
-  height: 50px;
-  border-bottom: solid 1px white;
-
-  @include breakpoint (small down) {
-    height: 80px;
-  }
-}
-
-.top-bar {
-  background-color: #000;
-  border-bottom: solid 1px #fff;
-  ul {
-    background-color: #000;
-  }
-}
-
-.top-bar-left {
-
-  .menu {
-    background-color: #000;
-    color: #fff;
-
-    li > a {
-      color: #fff;
-
-      &:after {
-        border-color: #fff transparent transparent;
+      @include breakpoint (1025px up) {
+        padding-left: 15%;
       }
+
+      .social-wrapper {
+          display: block;
+          width: 100%;
+          margin: 0 auto;
+          transform: translateY(30%);
+
+        .social-icon {
+          display: inline-block;
+        }
+    }
+  }
+
+  h1 {
+    font-family: "Nosifer Caps";
+    font-size: 24px;
+    text-align: center;
+    transform: translateY(45%);
+
+    @include breakpoint (small down) {
+      font-size: 20px;
+      transform: translateY(17%);
+    }
+
+    @include breakpoint (medium only) {
+      transform: translateY(10%);
+    }
+  }
+
+  p {
+    font-family: "Terminal Dosis";
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #e6cc0a;
+
+    @include breakpoint (medium only) {
+      display: none;
     }
   }
 }
 
-.menu-icon {
-  width: 40px;
-  height: 40px;
-  transform: translate(0, 40%);
-  outline: none;
+.menu-open {
+  overflow: hidden;  
+}
 
-  &:after {
-    height: 3px;
-    box-shadow: 0 10px 0 #fefefe, 0 21px 0 #fefefe;
-  }
+.menu {
+  -webkit-transition: 0.1s -webkit-transform linear;
+  transition: 0.1s -webkit-transform linear;
+  transition: 0.1s transform linear;
+  transition: 0.1s transform linear, 0.1s -webkit-transform linear;
+  position: relative;
+  background: 0;
+  float: left;
+  margin: 1rem;
+  height: 2.7rem;
+  width: 3.5rem;
+  z-index: 1;
+  outline: 0;
+  padding: 0;
+  border: 0;
+}
 
-  &:hover:after {
-    box-shadow: 0 10px 0 #fefefe, 0 21px 0 #fefefe;
+.bar, .bar::before, .bar::after {
+  -webkit-transition: 0.2s background linear 0.1s, 0.2s top linear 0.2s, 0.2s -webkit-transform linear;
+  transition: 0.2s background linear 0.1s, 0.2s top linear 0.2s, 0.2s -webkit-transform linear;
+  transition: 0.2s background linear 0.1s, 0.2s top linear 0.2s, 0.2s transform linear;
+  transition: 0.2s background linear 0.1s, 0.2s top linear 0.2s, 0.2s transform linear, 0.2s -webkit-transform linear;
+  position: absolute;
+  background: #000;
+  margin: auto;
+  width: 100%;
+  height: 0.3rem;
+  content: '';
+  top: 50%;
+  left: 0;
+}
+.bar {
+  margin-top: -0.2rem;
+}
+.bar::before {
+  top: -1.2rem;
+}
+.bar::after {
+  top: 1.2rem;
+}
+.bar::before, .bar::after {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+.active .bar {
+  background: 0;
+}
+.active .bar::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.active .bar::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.active .bar::before, .active .bar::after {
+  top: 0;
+}
+.active .bar, .active .bar::before, .active .bar::after {
+  -webkit-transition: 0.4s background linear 0.1s, 0.2s top linear, 0.2s -webkit-transform linear 0.2s;
+  transition: 0.4s background linear 0.1s, 0.2s top linear, 0.2s -webkit-transform linear 0.2s;
+  transition: 0.4s background linear 0.1s, 0.2s top linear, 0.2s transform linear 0.2s;
+  transition: 0.4s background linear 0.1s, 0.2s top linear, 0.2s transform linear 0.2s, 0.2s -webkit-transform linear 0.2s;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: fixed;
+  -webkit-transform: translateX(-9999px);
+          transform: translateX(-9999px);
+  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  transition: -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  transition: transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  transition: transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91), -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  padding-top: 6.2rem;
+  // z-index: 100;
+}
+.menu-open nav {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+
+  .social-wrapper {
+      display: block;
+      width: 100% !important;
+      margin: 0 auto;
+      transform: translateX(21%);
+
+    .social-icon {
+      display: inline-block;
+    }
   }
+}
+nav ul {
+  margin: 0;
+  margin-left: 5%;
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  padding: 20px 5px;
+  font-size: 2rem;
+}
+nav ul li:hover {
+  background: blue;
 }
