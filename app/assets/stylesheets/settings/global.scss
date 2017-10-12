@@ -82,3 +82,22 @@
      color: $white;
    }
 }
+
+.breadcrumbs {
+  ul {
+    &.breadcrumbs {
+      border-bottom: solid 2px #000;
+    }
+    li {
+      
+      a {
+        color: #e6cc0a;
+
+        &.disabled {
+          color: #000;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}

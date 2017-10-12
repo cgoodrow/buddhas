@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-get 'welcome/the_experience'
+  get 'welcome/the_experience'
 
   get 'welcome/index'
 
