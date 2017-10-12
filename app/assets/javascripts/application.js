@@ -14,11 +14,13 @@
 //= require jquery-ui
 //= require jquery_ujs
 //= require rails-ujs
-//= require turbolinks
 //= require angular
 //= require foundation
 //= require jquery.slick
+//= require turbolinks
 
 //= require_tree ./pages
+
+//= require_tree
 
 $(function(){ $(document).foundation(); });
